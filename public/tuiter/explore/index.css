@@ -69,4 +69,24 @@
   opacity: 1;
 }
 
+.wd-body--image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.wd-body--image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.wd-body--image-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+}
 
