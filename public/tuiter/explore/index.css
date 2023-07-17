@@ -1,0 +1,32 @@
+.wd-header{
+  margin-top: 1.75rem;
+}
+.wd-header--searchbar {
+    border-radius: 1rem;
+    float: top;
+    padding:0.5rem;
+    padding-left: 2rem;
+    width: calc(100% - 4rem);
+}
+
+.wd-header--searchbutton {
+
+    border: none;
+    position: absolute;
+    margin: 0.25rem;
+    margin-top: 0.5rem;
+    color: darkgrey;
+    background-color: transparent;
+
+}
+.wd-header--settingsbutton{
+    border: none;
+    position: absolute;
+    margin: 0.25rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: darkgrey;
+    background-color: transparent;
+}
+
+
