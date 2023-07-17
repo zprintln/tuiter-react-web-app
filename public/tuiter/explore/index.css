@@ -6,7 +6,8 @@
     float: top;
     padding:0.5rem;
     padding-left: 2rem;
-    width: calc(100% - 4rem);
+    width: calc(100% - 2rem);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wd-header--searchbutton {
@@ -38,12 +39,17 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  
 }
 
 .wd-tabs--list--item {
   margin-right: 15px;
   flex: 1;
+  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .wd-tab-link {
@@ -85,8 +91,71 @@
   bottom: 10px;
   left: 10px;
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 5px;
+  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
 }
+
+.wd-tweet-list {
+  list-style: none;
+  padding: 0;
+  width: calc(100% - 2rem);
+}
+
+.wd-tweet {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.wd-tweet--trending,
+.wd-tweet--name,
+.wd-tweet--count {
+  font-size: 10px;
+  flex-direction: row;
+  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wd-tweet--trending {
+  color: gray;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.wd-tweet--name {
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: larger;
+}
+
+.wd-tweet--count {
+  color: #777;
+  margin-top: 5px;
+  font-size: medium;
+}
+.wd-button-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: table-row;
+  justify-content: right;
+}
+
+.wd-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #777;
+  margin-inline: 20px;
+  padding: 100%;
+  
+}
+
+.wd-button:focus {
+  outline: none;
+}
+
 
