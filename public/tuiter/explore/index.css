@@ -158,4 +158,88 @@
   outline: none;
 }
 
+/* Here is the new CSS for the Explore page */
+/* Add your custom CSS styles here */
+
+.explore-sidebar {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-right: 1px solid #ddd;
+}
+
+.explore-sidebar-heading {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.explore-tuit-btn {
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+.explore-content {
+  padding: 15px;
+}
+
+.explore-search {
+  margin-bottom: 20px;
+}
+
+.explore-tabs {
+  margin-bottom: 20px;
+}
+
+.explore-image {
+  position: relative;
+}
+
+.explore-image-overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+}
+
+.explore-tuit-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.explore-tuit-list .media {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.explore-tuit-title {
+  font-weight: bold;
+}
+
+.explore-tuit-text {
+  margin-top: 5px;
+}
+
+.explore-follow-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.explore-follow-list .media {
+  margin-bottom: 15px;
+}
+
+.explore-follow-name {
+  font-weight: bold;
+}
+
+.explore-follow-description {
+  margin-top: 5px;
+}
+
+.explore-follow-btn {
+  border-radius: 20px;
+}
 
