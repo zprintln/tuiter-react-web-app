@@ -81,6 +81,7 @@
 }
 
 .wd-body--image {
+  padding-top: 7px;
   display: block;
   width: 100%;
   height: auto;
@@ -88,12 +89,12 @@
 
 .wd-body--image-text {
   position: absolute;
-  bottom: 10px;
+  bottom: 1px;
   left: 10px;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 5px;
+  padding: 0px;
   font-family:'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 500;
 }
@@ -243,3 +244,27 @@
   border-radius: 20px;
 }
 
+.wd-tuit-category {
+  font-family: inherit;
+}
+
+.wd-tuit-username {
+  word-wrap: break-word;
+}
+
+.wd-tuit-count {
+  min-width: 0px;
+}
+.list-group{
+  text-decoration: none;
+}
+.list-group-item {
+  text-align: left;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+nav-btn {
+  width: 200px; 
+}
