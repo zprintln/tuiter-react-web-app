@@ -255,16 +255,6 @@
 .wd-tuit-count {
   min-width: 0px;
 }
-.list-group{
-  text-decoration: none;
-}
-.list-group-item {
-  text-align: left;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: -1px;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-}
 nav-btn {
   width: 200px; 
 }
@@ -273,4 +263,7 @@ nav-btn {
 }
 .wd-bold{
   font-weight: bold;
+}
+.border-list li {
+  border-bottom: 1px solid #ccc;
 }
