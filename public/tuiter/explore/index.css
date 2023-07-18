@@ -268,7 +268,7 @@
 nav-btn {
   width: 200px; 
 }
-.wd-list-group-item:not(:last-child) {
+.wd-list-group-item{
   border-bottom: 1px solid #dee2e6;
 }
 .wd-bold{
