@@ -6,132 +6,142 @@
   <link rel="stylesheet" href="../../vendors/fontawesome/fontawesome-5.15.4/css/all.css"/>
 </head>
 <body>
-  <div class="container">
-    <div class="wd-header">
-      <button class="wd-header--back-btn"><i class="fa-solid fa-arrow-left"></i>back</button>
-      <h2 class="wd-header--title">All Bookmarks</h2>
-      <button class="wd-header--dots-btn"><i class="fas fa-ellipsis-h"></i></button>
-    </div>
-<table class="wd-bookmark-list">
-    <tr>
-        <td class="wd-tuit--profile">
-            <img src="../../images/twitterprofile.jpg" alt="Profile Image">
-        </td>
-        <td class="wd-tuit--content">
-            <table>
-                <tr class="wd-tuit--content--text">
-                    <table>
-                        <tr>
-                            <td class="wd-tuit--content--text--user">
-                                Drive Tesla @DriveTeslaNow · 2h
-                            </td>
-                            <td class="wd-tuit--content--text--actions">
-                                3 buttons
-                            </td>
-                        </tr>
-                    </table>
-                </tr>
-                <tr class="wd-tuit--content--media">
-                    <table>
-                        <tr class="wd-tuit--content--media--image">
-                            <td>
-                                <img src="../../images/molerat.jpg" alt="Tuit Image">
-                            </td>
-                        
-                        </tr>
-                        <tr class="wd-tuit--content--media--text">
-                            <td>
-                                Blahhhh blah blahhhhhhh
-                            </td>
-                        </tr>
-                    </table>
-    
-                </tr>
-                <tr class="wd-tuit--content--btns">
-                    <td>
-                        <button class="wd-tuit--content--btns--reply">
-                            <i class="fas fa-reply"></i>
-                        </button>
-                    </td>
-                    <td>
-                        <button class="wd-tuit--content--btns--retweet">
-                            <i class="fas fa-arrow-round"></i>
-                        </button>
-                    </td>
-                    <td>
-                        <button class="wd-tuit--content--btns--like">
-                            <i class="fas fa-heart"></i>
-                        </button>
-                    </td>
-                    <td>
-                        <button class="wd-tuit--content--btns--stats">
-                            <i class="fas fa-chart-bar"></i>
-                    </td>
-                    <td>
-                        <button class="wd-tuit--content--btns--share">
-                            <i class="fas fa-share"></i>
-                        </button>
-                    </td>
-    
-                </tr>
-            </table>
-            
+    <!-- Header -->
+    <div class="wd-header" id="header">
+        <a class="wd-header--back" href="../explore/index.html">
+            <i class="fas fa-arrow-left wd-header--back-button"></i>
+        </a>
 
-        </td>
-    </tr>
-</table>
+        <h3 class="wd-header--title">All Bookmarks</h3>
+
+        <div class="wd-header--more">
+            <button<i class="fas fa-ellipsis-h"></i></button>
+        </div>
+    </div>
+
+    <!-- Bookmarks -->
+    <div class="wd-bookmarks" id="bookmarks">
+        <ul class="wd-bookmarks--list">
+            <li class="wd-bookmarks--list--item">
+                    <img class="wd-bookmarks--list--item--avatar" src="../../images/alice.jpg" alt="">
+
+                    <div class="wd-bookmarks--list--item--content">
+
+                        <div class="wd-bookmarks--list--item--text">
+
+                            <div class="wd-bookmarks--list--item--text--body">
+                                <p class="wd-bookmarks--list--item--text--body--author">
+                                    Activist Alice <i class="fas fa-check-circle wd-bookmarks--list--item--text--body--author--check"></i>
     
+                                    <span class="wd-bookmarks--list--item--text--body--timestamp">
+                                        @ClimateJustice &#x2022; July 12
+                                    </span>
     
+                                </p>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<!--
-    
-    <table class="wd-bookmark-list">
-      <tr class="wd-tuit">
-        <td class="wd-tuit--profile">
-          <img src="../../images/twitterprofile.jpg" alt="Profile Image">
-        </td>
-        <td class="wd-tuit--content">
-          <div class="wd-tuit--username">Tuiter @tuiter · 4h</div>
-          <div class="wd-tuit--text">Shocking upswing in the number of mole rats in Ohio camp grounds</div>
-          <div class="wd-tuit--media">
-            <img src="../../images/molerat.jpg" alt="Tuit Image">
-            <a href="#" class="wd-tuit--link">Read more</a>
-          </div>
-        </td>
-        <td class="wd-tuit--actions">
-          <button class="wd-tuit--dots-btn"><i class="fas fa-ellipsis-h"></i></button>
-        </td>
-      </tr>
-      <tr class="wd-tuit">
-        <td class="wd-tuit--profile">
-          <img src="../../images/taylor.jpg" alt="Profile Image">
-        </td>
-        <td class="wd-tuit--content">
-          <div class="wd-tuit--username">Taylor @Sniffy · 8h</div>
-          <div class="wd-tuit--text">Economic upswing since Sniffies have taken over Levi stadium</div>
-          <div class="wd-tuit--media">
-            <img src="../../images/tour.jpg" alt="Tuit Image">
-            <a href="#" class="wd-tuit--link">Read more</a>
-          </div>
-        </td>
-        <td class="wd-tuit--actions">
-          <button class="wd-tuit--dots-btn"><i class="fas fa-ellipsis-h"></i></button>
-        </td>
-      </tr>
-      <tr class="wd-tuit-separator">
-        <td colspan="3"></td>
-      </tr>
-    </table>
-  </div>
-  -->
+                                <p class="wd-bookmarks--list--item--text--body-tuit">
+                                    Join our fight for climate justice begining with rally in front of the White House!
+                                </p>
+                            </div>
+
+
+                            <i class="fas fa-ellipsis-h wd-bookmarks--list--item--text--more"></i>
+                        </div>
+
+                        <div class="wd-bookmarks--list--item--link">
+                            <img class="wd-bookmarks--list--item--link--img" src="../../images/banner.jpg" alt="climate rally">
+
+                            <div class="wd-bookmarks--list--item--link--desc">
+
+                                <p class="wd-bookmarks--list--item--link--desc--url">
+                                    climatejustice.org
+                                </p>
+
+                                <p class="wd-bookmarks--list--item--link--desc--title">
+                                    Angry Gen-Z Calls on World Leaders to Take Immediate and Ambitious Action...
+                                </p>
+
+                                <p class="wd-bookmarks--list--item--link--desc--preview">
+                                    Chanting slogans and holding eye-catching banners, the diverse crowd underscored the urgency of addressing 
+                                    climate change and its disproportionate impact on marginalized communities...
+                                    
+                                </p>
+                        
+                            </div>
+                        </div>
+
+                        <div class="wd-bookmarks--list--item--buttons">
+                            <a href=""><i class="fas fa-comment">
+                                <span class="wd-bookmarks--list--item--buttons--numbers">24</span></i></a>
+                            <a href=""><i class="fas fa-retweet">
+                                <span class="wd-bookmarks--list--item--buttons--numbers">30</span></i></a>
+                            <a href=""><i class="fas fa-heart">
+                                <span class="wd-bookmarks--list--item--buttons--numbers">152</span></i></a>
+                            <a href=""><i class="fas fa-chart-bar">
+                                <span class="wd-bookmarks--list--item--buttons--numbers">10.9K</span></i></a>
+                            <a href=""><i class="fas fa-share"></i></a>
+                        </div>
+                    </div>
+            </li>
+
+            <li class="wd-bookmarks--list--item">
+                <img class="wd-bookmarks--list--item--avatar" src="../../images/elontusk.jpg" alt="">
+
+                <div class="wd-bookmarks--list--item--content">
+
+                    <div class="wd-bookmarks--list--item--text">
+
+                        <div class="wd-bookmarks--list--item--text--body">
+                            <p class="wd-bookmarks--list--item--text--body--author">
+                                MeslaBot <i class="fas fa-check-circle wd-bookmarks--list--item--text--body--author--check"></i>
+
+                                <span class="wd-bookmarks--list--item--text--body--timestamp">
+                                    @erontusk &#x2022; July 11
+                                </span>
+
+                            </p>
+
+                            <p class="wd-bookmarks--list--item--text--body-tuit">
+                                Introducing...MeslaBot &#129321
+                            </p>
+                        </div>
+
+
+                        <i class="fas fa-ellipsis-h wd-bookmarks--list--item--text--more"></i>
+                    </div>
+
+                    <div class="wd-bookmarks--list--item--link">
+                        <img class="wd-bookmarks--list--item--link--img" src="../../images/teslabot.jpg" alt="pineapple">
+
+                        <div class="wd-bookmarks--list--item--link--desc">
+
+                            <p class="wd-bookmarks--list--item--link--desc--url">
+                                Mesla.com
+                            </p>
+
+                            <p class="wd-bookmarks--list--item--link--desc--title">
+                                Welcome to the MeslaVerse...
+                            </p>
+
+                            <p class="wd-bookmarks--list--item--link--desc--preview">
+                                MeslaBot stands at a compact 4'2" and is built to replicate human movements with advanced AI capabilities. 
+                                Tusk emphasized the robot's hostile design and assured the public that it would prioritize being a karen`s worst nightmare,
+                                 using the same technology that powers Mesla's self-driving cars...
+                            </p>
+                    
+                        </div>
+                    </div>
+
+                    <div class="wd-bookmarks--list--item--buttons">
+                        <a href=""><i class="fas fa-comment"><span class="wd-bookmarks--list--item--buttons--numbers">40</span></i></a>
+                        <a href=""><i class="fas fa-retweet"><span class="wd-bookmarks--list--item--buttons--numbers">100</span></i></a>
+                        <a href=""><i class="fas fa-heart"><span class="wd-bookmarks--list--item--buttons--numbers">346</span></i></a>
+                        <a href=""><i class="fas fa-chart-bar"><span class="wd-bookmarks--list--item--buttons--numbers">8534</span></i></a>
+                        <a href=""><i class="fas fa-share"></i></a>
+                    </div>
+                </div>
+        </li>
+        </ul>
+    </div>
 </body>
 </html>

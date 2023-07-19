@@ -1,80 +1,147 @@
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .wd-header {
-    display: flex;
-    align-items: left;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .wd-header--back-btn,
-  .wd-header--dots-btn {
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
     color: #777;
-    font-size: 18px;
-  }
-  
-  .wd-header--title {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .wd-bookmark-list {
-    width: 100%;
-  }
-  
-  .wd-tuit {
+}
+/* header */
+.wd-header {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-left: 275px;
+    padding-right: 240px;
+
+}
+
+.wd-header--back {
     display: flex;
     align-items: center;
-    margin: 0;
-  }
-  
-  .wd-tuit--profile img {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-  }
-  
-  .wd-tuit--content {
-    flex: 1;
-    margin-left: 10px;
-    border-bottom: 1px solid #ddd;
-    
-  }
-  
-  .wd-tuit--username {
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .wd-tuit--text {
-    margin-bottom: 5px;
-  }
-  
-  .wd-tuit--media img {
-    max-width: 100%;
-    margin-bottom: 0px;
-  }
-  
-  .wd-tuit--link {
-    color: #1da1f2;
-    font-size: 14px;
     text-decoration: none;
-  }
-  
-  .wd-tuit--dots-btn {
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
+    flex-grow: 0;
+}
+
+.wd-header--back-button {
+    padding: 1rem 3rem 1rem 1rem;
+    padding-right: 15px;
+}
+
+.wd-header--title {
+    margin: 0;
+    padding: 1rem;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+
+.wd-header--more {
+    padding: 1rem;
+    color:#777;
+    flex-grow: 0;
+}
+.wd-header--more button{
+    padding: 1rem;
+}
+
+/* bookmark tuits*/
+.wd-bookmarks--list {
+    padding: 0;
+    margin: 0;
+}
+
+.wd-bookmarks--list--item {
+    display: flex;
+    border-style: none;
+    border-width: 1px;
+    border-color: lightgray;
+   justify-content: center;
+}
+
+.wd-bookmarks--list--item:hover {
+    background-color: whitesmoke;
+}
+
+.wd-bookmarks--list--item--content {
+    flex-grow: 1;
+    padding: 1rem;
+    max-width: 50rem;
+}
+
+.wd-bookmarks--list--item--avatar {
+    object-fit: cover;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 1rem;
+    margin-right: 0;
+}
+
+.wd-bookmarks--list--item--text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.wd-bookmarks--list--item--text--body--author {
+    font-weight: 700;
+}
+
+.wd-bookmarks--list--item--text--body--author--check {
+    color: rgb(43, 172, 251);
+}
+
+.wd-bookmarks--list--item--text--more {
+    margin-left: 2rem;
+}
+
+.wd-bookmarks--list--item--text--body--timestamp {
+    font-weight: 400;
     color: #777;
-    font-size: 18px;
-  }
-  
+}
+
+.wd-bookmarks--list--item--link {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.wd-bookmarks--list--item--link--img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    max-height: 20rem;
+}
+
+.wd-bookmarks--list--item--link--desc {
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.wd-bookmarks--list--item--link--desc--url {
+    color: #777;
+}
+
+.wd-bookmarks--list--item--link--desc--preview {
+    color: #777;
+}
+
+.wd-bookmarks--list--item--link--desc:hover{
+    background-color: whitesmoke;
+}
+
+.wd-bookmarks--list--item--buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-bookmarks--list--item--buttons--numbers  {
+    font-family: sans-serif;
+    font-weight: 400;
+    padding: 0 0.5rem 0 0.5rem;
+    color: #777;
+}
+
+ 
