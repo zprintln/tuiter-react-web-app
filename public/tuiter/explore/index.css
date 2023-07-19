@@ -159,8 +159,6 @@
   outline: none;
 }
 
-/* Here is the new CSS for the Explore page */
-/* Add your custom CSS styles here */
 
 .explore-sidebar {
   background-color: #f9f9f9;
@@ -255,6 +253,7 @@
 .wd-tuit-count {
   min-width: 0px;
 }
+
 nav-btn {
   width: 200px; 
 }
@@ -267,91 +266,7 @@ nav-btn {
 .border-list li {
   border-bottom: 1px solid #ccc;
 }
-/* experiment*
-
-.sidebar {
-  width: 200px;
+.wd-tuitbtn{
+  text-decoration: none;
+  color: hwb(0 100% 0%);
 }
-
-.wd-header {
-  display: flex;
-  align-items: center;
-}
-
-.wd-header--searchbutton,
-.wd-header--settingsbutton {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.wd-header--searchbar {
-  border: none;
-  outline: none;
-}
-
-.wd-tabs--list {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.wd-tabs--list--item {
-  margin-right: 10px;
-}
-
-.wd-selected {
-  font-weight: bold;
-}
-
-.wd-body--image-container {
-  position: relative;
-}
-
-.wd-body--image-text {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  color: white;
-  font-weight: bold;
-}
-
-.wd-tweet-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.wd-tweet {
-  margin-bottom: 10px;
-}
-
-.wd-tweet--trending {
-  font-size: 12px;
-  color: gray;
-}
-
-.wd-tweet--name {
-  font-weight: bold;
-}
-
-.wd-tweet--count {
-  font-size: 12px;
-  color: gray;
-}
-
-.wd-button-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-.wd-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  margin-right: 5px;
-}
-/
