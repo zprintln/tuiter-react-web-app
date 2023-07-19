@@ -3,64 +3,135 @@
 <head>
   <title>Tuiter - Bookmarks</title>
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" 
-    href="../../vendors/fontawesome/fontawesome-5.15.4/css/all.css"/>
+  <link rel="stylesheet" href="../../vendors/fontawesome/fontawesome-5.15.4/css/all.css"/>
 </head>
 <body>
-  <table class="wd-header">
+  <div class="container">
+    <div class="wd-header">
+      <button class="wd-header--back-btn"><i class="fa-solid fa-arrow-left"></i>back</button>
+      <h2 class="wd-header--title">All Bookmarks</h2>
+      <button class="wd-header--dots-btn"><i class="fas fa-ellipsis-h"></i></button>
+    </div>
+<table class="wd-bookmark-list">
     <tr>
-        <td>
-            <button class="wd-header--back-btn"><i class="fa-solid fa-arrow-left"></i></button>
-        </td>
-        <td>
-            <h2 class="wd-header--title"> All Bookmarks</h2>
-        </td>
-        <td>
-            <button class="wd-header--dots-btn"><i class="fas fa-ellipsis-h"></i></button>
-        </td>
-    </tr>
-  </table>
-
-  <table class="wd-bookmark-list">
-    <tr class="wd-tuit">
-      <td class="wd-tuit--profile">
-        <img src="profile-image.jpg" alt="Profile Image">
-      </td>
-      <td class="wd-tuit--content">
-        <div class="wd-tuit--username">Forbes @Forbes · 4h</div>
-        <div class="wd-tuit--text"> Tuit description</div>
-        <div class="wd-tuit--media">
-          <img src="tuit-image.jpg" alt="Tuit Image">
-          <a href="#" class="wd-tuit--link">Read more</a>
-        </div>
-      </td>
-      <td class="wd-tuit--actions">
-        <button class="wd-tuit--dots-btn"><i class="fas fa-ellipsis-h"></i></button>
-      </td>
-    </tr>
-    <tr class="wd-tuit-separator">
-      <td colspan="3"></td>
-    </tr>
-    <tr class="wd-tuit">
         <td class="wd-tuit--profile">
-          <img src="profile-image.jpg" alt="Profile Image">
+            <img src="../../images/twitterprofile.jpg" alt="Profile Image">
         </td>
         <td class="wd-tuit--content">
-          <div class="wd-tuit--username">Taylor @Swifty · 8h</div>
-          <div class="wd-tuit--text"> Tuit description</div>
+            <table>
+                <tr class="wd-tuit--content--text">
+                    <table>
+                        <tr>
+                            <td class="wd-tuit--content--text--user">
+                                Drive Tesla @DriveTeslaNow · 2h
+                            </td>
+                            <td class="wd-tuit--content--text--actions">
+                                3 buttons
+                            </td>
+                        </tr>
+                    </table>
+                </tr>
+                <tr class="wd-tuit--content--media">
+                    <table>
+                        <tr class="wd-tuit--content--media--image">
+                            <td>
+                                <img src="../../images/molerat.jpg" alt="Tuit Image">
+                            </td>
+                        
+                        </tr>
+                        <tr class="wd-tuit--content--media--text">
+                            <td>
+                                Blahhhh blah blahhhhhhh
+                            </td>
+                        </tr>
+                    </table>
+    
+                </tr>
+                <tr class="wd-tuit--content--btns">
+                    <td>
+                        <button class="wd-tuit--content--btns--reply">
+                            <i class="fas fa-reply"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="wd-tuit--content--btns--retweet">
+                            <i class="fas fa-arrow-round"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="wd-tuit--content--btns--like">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="wd-tuit--content--btns--stats">
+                            <i class="fas fa-chart-bar"></i>
+                    </td>
+                    <td>
+                        <button class="wd-tuit--content--btns--share">
+                            <i class="fas fa-share"></i>
+                        </button>
+                    </td>
+    
+                </tr>
+            </table>
+            
+
+        </td>
+    </tr>
+</table>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--
+    
+    <table class="wd-bookmark-list">
+      <tr class="wd-tuit">
+        <td class="wd-tuit--profile">
+          <img src="../../images/twitterprofile.jpg" alt="Profile Image">
+        </td>
+        <td class="wd-tuit--content">
+          <div class="wd-tuit--username">Tuiter @tuiter · 4h</div>
+          <div class="wd-tuit--text">Shocking upswing in the number of mole rats in Ohio camp grounds</div>
           <div class="wd-tuit--media">
-            <img src="tuit-image.jpg" alt="Tuit Image">
+            <img src="../../images/molerat.jpg" alt="Tuit Image">
             <a href="#" class="wd-tuit--link">Read more</a>
           </div>
         </td>
         <td class="wd-tuit--actions">
           <button class="wd-tuit--dots-btn"><i class="fas fa-ellipsis-h"></i></button>
         </td>
-    </tr>
-    <tr class="wd-tuit-separator">
+      </tr>
+      <tr class="wd-tuit">
+        <td class="wd-tuit--profile">
+          <img src="../../images/taylor.jpg" alt="Profile Image">
+        </td>
+        <td class="wd-tuit--content">
+          <div class="wd-tuit--username">Taylor @Sniffy · 8h</div>
+          <div class="wd-tuit--text">Economic upswing since Sniffies have taken over Levi stadium</div>
+          <div class="wd-tuit--media">
+            <img src="../../images/tour.jpg" alt="Tuit Image">
+            <a href="#" class="wd-tuit--link">Read more</a>
+          </div>
+        </td>
+        <td class="wd-tuit--actions">
+          <button class="wd-tuit--dots-btn"><i class="fas fa-ellipsis-h"></i></button>
+        </td>
+      </tr>
+      <tr class="wd-tuit-separator">
         <td colspan="3"></td>
-    </tr>
-
-  </table>
+      </tr>
+    </table>
+  </div>
+  -->
 </body>
 </html>
