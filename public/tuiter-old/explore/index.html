@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tuiter - Explore</title>
+  <link href="index.css"
+  rel="stylesheet"/>
+  <link href="../../vendors/bootstrap/css/bootstrap.min.css" 
+  rel="stylesheet"/>
+  <link href="../../vendors/fontawesome/fontawesome-5.15.4/css/all.css"
+   rel="stylesheet"/>
+</head>
+<body>
+    <div class="container text-left p-3">
+        <div class="row">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2">
+                <!--left column-->
+                <ul class="list-group text-left">
+                    <li class="list-group-item wd-list-group-item"><i class="fab fa-twitter"></i></li>
+                    <li class="list-group-item wd-list-group-item"><a class="text-decoration-none text-dark" href="home.html">
+                        <i class="fas fa-home"></i><span class="d-none d-lg-none d-xl-inline p-1">Home</span></a></li>
+                    <li class="list-group-item wd-list-group-item active"><a class="text-decoration-none text-light active" href="explore/index.html">
+                        <i class="fas fa-hashtag"></i><span class="d-none d-lg-none d-xl-inline p-1">Explore</span></a></li>
+                    <li class="list-group-item wd-list-group-item"><a class="text-decoration-none text-dark" href="notifications.html">
+                        <i class="fas fa-bell"></i><span class="d-none d-lg-none d-xl-inline p-1">Notifications</span> </a></li>
+                    <li class="list-group-item wd-list-group-item"><a class="text-decoration-none text-dark" href="messages.html">
+                        <i class="fas fa-envelope"></i><span class="d-none d-lg-none d-xl-inline p-1">Messages</span></a></li>
+                    <li class="list-group-item wd-list-group-item"><a class="text-decoration-none text-dark" href="../bookmarks/bookmarks-css.html">
+                        <i class="fas fa-bookmark"></i><span class="d-none d-lg-none d-xl-inline p-1">Bookmarks</span></a></li>
+                    <li class="list-group-item wd-list-group-item"><a class="text-decoration-none text-dark" href="lists.html">
+                        <i class="fas fa-list-ul"></i><span class="d-none d-lg-none d-xl-inline p-1">Lists</span></a></li>
+                    <li class="list-group-item wd-list-group-item"><a class="text-decoration-none text-dark" href="profile.html">
+                        <i class="fas fa-user"></i><span class="d-none d-lg-none d-xl-inline p-1">Profile</span></a></li>
+                    <li class="list-group-item ">
+                        <a class="text-decoration-none text-dark" href="more.html">
+                            <span class="fa-stack fa-xs" style="margin-left: -8px;">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+                            </span><span class="d-none d-lg-none d-xl-inline p-1">More</span>
+                        </a>
+                    </li>
+                </ul>
+                <br>
+                <button class="btn btn-primary rounded-pill btn-sm w-100"><a href="../tuit.html" role="button"><span class="wd-tuitbtn">Tuit</span></a></button>
+            </div>
+          <div class="col-6 col-xl-6 col-md-8 col-sm-8 col-8">
+            <!--middle column-->
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text rounded-start-pill bg-transparent" id="addon-wrapping"><i class="fas fa-search"></i></span>
+                    <input type="text" class="form-control rounded-end-pill border-start-0" placeholder="Search Tuiter" aria-label="Search" aria-describedby="addon-wrapping">
+                    <button type="button" class="btn btn-outline"><i class="fas fa-cog fa-lg text-primary"></i></button>
+              </div><br>
+
+              <!--Start of nav tabs-->
+              <ul class="nav nav-tabs pb-2 w-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">For You</a>
+                </li>
+                <li class="nav-item border-bottom">
+                  <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item border-bottom">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                <li class="nav-item border-bottom d-none d-md-flex">
+                  <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item border-bottom d-none d-lg-flex">
+                  <a class="nav-link" href="#">Entertainment</a>
+                </li>
+              </ul>
+            <!--End of nav tabs-->
+
+            <!--Start of body image-->
+            <div class="position-relative">
+                <img src="../../images/spaceship.jpg" class="img-fluid w-100" alt="Responsive Spaceship Image">
+                <h3 class="position-absolute text-white bottom-0 start-0 m-3">Tesla's New Venture</h3>
+            </div>
+            <!--Start of list group-->
+              <ul class="list-group">
+                <li class="list-group-item">
+                    <a class="text-decoration-none text-dark" href="">
+                        <div class="row align-items-center">
+                            <div class="col-10">
+                                <p class="m-0 text-muted">Cooking</p>
+                                <p class="m-0 fw-bold">Cupcake CEO<i class="fas fa-check-circle m-1"></i><span class="text-muted fw-normal"> - 3h</span></p>
+                                <p class="m-0 text-wrap">The perfect way to bite into summer! Strawberry, Vanilla or Red Velvet? Learn which flavor best suits you</p>
+                            </div>
+                            <div class="col-2 d-flex align-items-center justify-content-end">
+                                <img class="img-fluid rounded" src="../../images/cupcakes.jpg">
+                            </div>
+                        </div>
+                    </a>
+                </li>                
+                <li class="list-group-item">
+                    <a class="text-decoration-none text-dark" href="">
+                        <div class="row align-items-center">
+                            <div class="col-10">
+                                <p class="m-0 text-muted">Entertainment</p>
+                                <p class="m-0 fw-bold">Taylor Sniff<i class="fas fa-check-circle m-1"></i><span class="text-muted fw-normal"> - 22h</span></p>
+                                <p class="m-0 text-wrap">AREA Tour has stimulated more economic movement than Alon Tusk in the last 2 quarters</p>
+                                <p class="m-0 text-muted">33.3k Tuits</p>
+                            </div>
+                            <div class="col-2 d-flex align-items-center justify-content-end">
+                                <img class="img-fluid rounded" src="../../images/taylor.jpg">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a class="text-decoration-none text-dark" href="">
+                        <div class="row align-items-center">
+                            <div class="col-10">
+                                <p class="m-0 text-muted">Technology</p>
+                                <p class="m-0 fw-bold">Open AI<i class="fas fa-check-circle m-1"></i><span class="text-muted fw-normal"> - 3h</span></p>
+                                <p class="m-0 text-muted">222.2k Tuits</p>
+                            </div>
+                            <div class="col-2 d-flex align-items-center justify-content-end">
+                                <img class="img-fluid rounded" src="../../images/openai.jpg">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a class="text-decoration-none text-dark" href="">
+                        <div class="row align-items-center">
+                            <div class="col-10">
+                                <p class="m-0 text-muted">Automotive</p>
+                                <p class="m-0 fw-bold">Lesla<i class="fas fa-check-circle m-1"></i><span class="text-muted fw-normal"> - 7h</span></p>
+                                <p class="m-0 text-muted">56.2k Tuits</p>
+                            </div>
+                            <div class="col-2 d-flex align-items-center justify-content-end">
+                                <img class="img-fluid rounded" src="../../images/elontusk.jpg">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                
+              </ul>     
+          </div>
+          <!--End middle col-->
+
+          <!--right column-->
+          <div class="col-4 col-sm- col-m- col-lg-">
+            <!--Start follow suggestion list-->
+            <ul class="list-group">
+                <li class="list-group-item d-none d-lg-block">
+                    <div class="container">
+                        <div class="row">
+                            <p class="mb-0 wd-bold text-start p-0">Who to follow</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-none d-lg-block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="d-flex align-items-center p-2 col-2">
+                                <img class="img-fluid rounded-circle mh-100 mw-100" src="../../images/favicon.ico">
+                            </div>
+                            <div class="d-flex col-7">
+                                <div class="text-start">
+                                    <p class="mb-0 wd-bold">React<i class="fas fa-check-circle m-1"></i></p>
+                                    <p class="mb-0">@react</p>
+                                </div>
+                            </div>
+                            <div class="d-grid col-3 align-items-center">
+                                <button type="button" class="btn btn-primary rounded-pill">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-none d-lg-block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="d-flex align-items-center p-2 col-2">
+                                <img class="img-fluid rounded-circle mh-100 mw-100" src="../../images/pandaapple.png">
+                            </div>
+                            <div class="d-flex col-7">
+                                <div class="text-start">
+                                    <p class="mb-0 wd-bold">Panda Apple<i class="fas fa-check-circle m-1"></i></p>
+                                    <p class="mb-0">@applepanda</p>
+                                </div>
+                            </div>
+                            <div class="d-grid col-3 align-items-center">
+                                <button type="button" class="btn btn-primary rounded-pill">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-none d-lg-block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="d-flex align-items-center p-2 col-2">
+                                <img class="img-fluid rounded-circle mh-100 mw-100" src="../../images/cupcakes.jpg">
+                            </div>
+                            <div class="d-flex col-7">
+                                <div class="text-start">
+                                    <p class="mb-0 wd-bold">Cupcake<i class="fas fa-check-circle m-1"></i></p>
+                                    <p class="mb-0">@sugaricing</p>
+                                </div>
+                            </div>
+                            <div class="d-grid col-3 align-items-center">
+                                <button type="button" class="btn btn-primary rounded-pill">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-none d-lg-block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="d-flex align-items-center p-2 col-2">
+                                <img class="img-fluid rounded-circle mh-100 mw-100" src="../../images/donut.jpg">
+                            </div>
+                            <div class="d-flex col-7">
+                                <div class="text-start">
+                                    <p class="mb-0 wd-bold">Delish Delights<i class="fas fa-check-circle m-1"></i></p>
+                                    <p class="mb-0">@donutz</p>
+                                </div>
+                            </div>
+                            <div class="d-grid col-3 align-items-center">
+                                <button type="button" class="btn btn-primary rounded-pill">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-none d-lg-block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="d-flex align-items-center p-2 col-2">
+                                <img class="img-fluid rounded-circle mh-100 mw-100" src="../../images/baking.jpg">
+                            </div>
+                            <div class="d-flex col-7">
+                                <div class="text-start">
+                                    <p class="mb-0 wd-bold">Powder Sugar<i class="fas fa-check-circle m-1"></i></p>
+                                    <p class="mb-0">@candy</p>
+                                </div>
+                            </div>
+                            <div class="d-grid col-3 align-items-center">
+                                <button type="button" class="btn btn-primary rounded-pill">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+              </ul>     
+          </div>
+        </div>
+      </div>
+</body>
+</html>
