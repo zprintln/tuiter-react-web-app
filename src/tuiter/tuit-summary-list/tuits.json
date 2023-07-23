@@ -1,0 +1,26 @@
+[{ "_id": 123, "topic": "Cooking", "userName": "sprinkles",
+   "title": "Love at First Bite: Fall in Love with Our Artisanal Cupcakes!",
+   "time": "2h",  "image": "cupcakes.jpg" },
+ { "_id": 234, "topic": "Sanrio",   "userName": "sugarbunnies",
+   "title": "Calling All Sanrio Fans! Explore the World of Sugar Bunnies",
+   "time": "3h",   "image": "sugarbunnies.png" },
+ {
+  "_id": 345,
+  "topic": "Artificial Intelligence",
+  "userName": "OpenAI",
+  "title": "OpenAI's Breakthrough: AI advancements revolutionize industries. Witness the future of automation.",
+  "time": "4d",
+  "image": "openai.jpg"
+},
+{
+  "_id": 456,
+  "topic": "Kawaii",
+  "userName": "PomPomPudding",
+  "title": "Pompompurin's Adorable Adventures! Dive into the world of cuteness with this lovable character.",
+  "time": "2d",
+  "image": "pompom.png"
+}
+
+
+]
+

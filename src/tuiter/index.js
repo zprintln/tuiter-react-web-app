@@ -12,7 +12,7 @@ import ListsScreen from "./lists-screen";
 import NotificationsScreen from "./notifications-screen";
 import MoreScreen from "./more-screen";
 
-import WhoToFollowListItem from "./who-to-follow-list/who-to-follow-list-item";
+import WhoToFollowList from "./who-to-follow-list";
 
 
 
@@ -37,7 +37,7 @@ function Tuiter() {
          </Routes>
        </div>
        <div className="col-3">
-         <WhoToFollowListItem/>
+         <WhoToFollowList/>
        </div>
      </div>
    </div>
