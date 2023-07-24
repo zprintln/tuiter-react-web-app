@@ -9,7 +9,7 @@ function booleanVariables() {
     let true4 = numberVariable === 123;
 
     let floatingPointNumber = 321.432;
-    let true5 = floatingPointNumber == 321.432;
+    let true5 = floatingPointNumber === 321.432; // had to change this to '1' === 1 because it was giving me an error
 
     let false3 = numberVariable < 100;
 
