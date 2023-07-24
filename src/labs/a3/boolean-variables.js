@@ -13,7 +13,7 @@ function booleanVariables() {
 
     let false3 = numberVariable < 100;
 
-    let sortaTrue = '1' == 1;  // never use this ==
+    let sortaTrue = '1' === 1;  // never use this == // had to change this to '1' === 1 because it was giving me an error
     let notTrue = '1' === 1; // always use this ===
     return (
         <div>
