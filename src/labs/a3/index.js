@@ -1,8 +1,8 @@
 import JavaScript from "./java-script";
-import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
 import TodoList from "./todo/todo-list";
+import DynamicStyling from "./dynamic-styling";
 
 function Assignment3() {
     return (
@@ -11,7 +11,7 @@ function Assignment3() {
         <TodoList/>
         <ConditionalOutput/>
         <Styles/>
-        <Classes/>
+        <DynamicStyling/>
         <JavaScript/>
       </div>
     );
