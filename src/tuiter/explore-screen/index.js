@@ -9,13 +9,13 @@ function ExploreScreen() {
  return (
     <>
     <div className="row">
-        <div className="col-11 position-relative">
+        <div className="col-11 col-sm-8 position-relative">
             <input placeholder="Search Tuiter"
                     className="form-control rounded-pill ps-5"/>
             <AiOutlineSearch className="fs-3 position-absolute 
                         wd-nudge-up"/>
         </div>
-        <div className="col-1">
+        <div className="col-1 col-sm-4">
             <FaCog className="wd-top-4 float-end
                         fs-3 position-relative wd-black-icon"/>
         </div>
@@ -30,10 +30,10 @@ function ExploreScreen() {
         <li className="nav-item">
             <a className="nav-link" href="#">News</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item d-sm-none">
             <a className="nav-link" href="#">Sports</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item d-sm-none">
             <a className="nav-link" href="#">Entertainment</a>
         </li>
         </ul>

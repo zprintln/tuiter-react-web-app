@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router";
 import Nav from "../nav";
 
 import NavigationSidebar from "./navigation-sidebar";
-import HomeScreen from "./home-screen";
+import HomeScreen from "./home-screen/home-screen";
 import ExploreScreen from "./explore-screen";
 import BookmarksScreen from "./bookmarks-screen";
 import ProfileScreen from "./profile-screen";
@@ -13,7 +13,6 @@ import NotificationsScreen from "./notifications-screen";
 import MoreScreen from "./more-screen";
 
 import WhoToFollowList from "./who-to-follow-list";
-
 
 
 function Tuiter() {
