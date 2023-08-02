@@ -13,6 +13,7 @@ function App() {
     <BrowserRouter>
       <div className="container">
         <Routes> 
+          <h1>Welcome to Web Dev!</h1>
           <Route path="/"       element={<Navigate to="/labs"/>}/>
           <Route path="/labs/*"   element={<Labs/>}/>
           <Route path="/hello"   element={<HelloWorld/>}/>
