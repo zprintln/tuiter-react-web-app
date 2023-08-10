@@ -7,7 +7,7 @@ const WhoToFollowList = () => {
     console.log(whoArray);
 
  return(
-   <ul className="list-group d-none d-lg-block">
+   <ul className="list-group">
      <li className="list-group-item">
        <h3>Who to follow</h3>
      </li>
