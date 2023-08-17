@@ -5,7 +5,7 @@ import axios from 'axios';
 //We don't use above implementations because it would force us to manually change the URL every time we deploy the app.
 
 //instead we use the following:
-const API_BASE = process.env.REACT_APP_API_BASE;
+const API_BASE = 'http://localhost:4000/api';
 const TUITS_API = `${API_BASE}/tuits`;
 
 export const createTuit = async (tuit) => {
