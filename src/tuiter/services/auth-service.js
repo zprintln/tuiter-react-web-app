@@ -2,7 +2,8 @@ import axios from "axios";
 
 // get the URL to the remote API
 
-const REACT_APP_SERVER_API_URL="http://localhost:4000/api";
+// const REACT_APP_SERVER_API_URL="http://localhost:4000/api";
+const REACT_APP_SERVER_API_URL="https://tuiter-node-server-app-i73h.onrender.com/api";
 const SERVER_API_URL = REACT_APP_SERVER_API_URL;
 
 // URL to auth controller
